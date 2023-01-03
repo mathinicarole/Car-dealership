@@ -1,0 +1,68 @@
+body{
+    background-image: url("images/bg_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+}
+p{
+    color: white;
+    font-weight: bolder;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+    color:  wheat;
+    font-weight: bolder;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 15px;
+    color:black;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    background: transparent;
+    color:wheat;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+   
+}
+span{
+    background:rgb(90, 90, 249);
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}

@@ -1,0 +1,72 @@
+body{
+    background-image: url("images/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.service{
+    
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: rgb(89, 89, 220);
+    font-size: 55px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 345px;
+    width: 345px;
+    padding: 20px 35px;
+    background:rgb(89, 89, 220);;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:blueviolet;
+}
+h5{
+    color: rgb(89, 89, 220);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+color: black;
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 25px;
+}
+.card .button{
+    background-color: rgb(89, 89, 220);
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px rgb(89, 89, 220);
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(89, 89, 220);
+    cursor: pointer;
+    color: rgb(89, 89, 220);
+}
